@@ -30,7 +30,7 @@ RUN mkdir -p /var/log/shiny-server \
 	&& chmod 755 -R /opt/shiny-server/samples/sample-apps
 
 # Get the Rprofile.site file
-RUN wget -O /usr/lib64/R/etc/Rprofile.site https://raw.githubusercontent.com/bi-sdal/mro-ldap-ssh-c7/master/Rprofile.site
+# RUN wget -O /usr/lib64/R/etc/Rprofile.site https://raw.githubusercontent.com/bi-sdal/mro-ldap-ssh-c7/master/Rprofile.site
 
 EXPOSE 3838
 
